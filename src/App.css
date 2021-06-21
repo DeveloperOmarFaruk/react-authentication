@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.info,
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+p {
+    padding: 1.3rem 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+    color: tomato;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sign-in-btn {
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-permission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-bottom: 10px;
+    color: tomato;
+}
+
+.user-permission-input {
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+label {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+@media (max-width: 1024px) {
+    .info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
